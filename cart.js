@@ -13,7 +13,7 @@ function displayCart() {
             totalPrice += parseInt(item.price.replace(/\D/g, ''), 10);
             return `
                 <div class="cart-item" data-index="${index}">
-                    <img src="${item.name}.jpg" alt="${item.name}" />
+                    <img src="${item.imgSrc}.jpg" alt="${item.name}" />
                     <div>
                         <h3>${item.name}</h3>
                         <p>${item.price}</p>
