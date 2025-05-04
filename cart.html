@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savatcha - Lady & Laylo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script defer src="./cart.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="ahref" href="./index.html"><div class="logo"><h1>Lady & Laylo</h1></div></a>
+            <a href="./index.html" class="cart-link">Bosh sahifa</a>
+            <div class="contact-info">
+                <a class="telegram" href="https://t.me/t.me/Baxmal_lacore"> <img src="https://cdn-icons-png.flaticon.com/24/2111/2111646.png" alt="Telegram" style="vertical-align: middle; margin-right: 6px;">Telegram</a>
+                
+                📞 +998 97 072 82 83 | 📍 Jizzax viloyati
+            </div>
+        </nav>
+    </header>
+
+    <main class="cart-container">
+        <h1>Savatcha</h1>
+        <div id="cart-items"></div>
+
+        
+        <div class="customer-info">
+            <h2>Buyurtmachi ma’lumotlari</h2>
+            <input type="text" id="fullName" placeholder="Ism va familiya" required>
+            <input type="tel" id="phone" placeholder="Telefon raqami" required>
+            <input type="text" id="telegram" placeholder="Telegram username" required>
+        </div>
+
+        <div class="cart-total">
+            <p>Total: <span id="total-price">0 UZS</span></p>
+            <button class="zakaz" onclick="placeOrder()">Buyurtma berish</button>
+        </div>
+    </main>
+
+     <!-- Footer -->
+     <footer>
+        <div class="footer-info">
+            <ul>
+                <li><p>© 2025 Lady & Laylo.  Barcha huquqlar himoyalangan.</p></li>
+                <li><a class="telegram" href="https://t.me/t.me/Baxmal_lacore"> <img src="https://cdn-icons-png.flaticon.com/24/2111/2111646.png" alt="Telegram" style="vertical-align: middle; margin-right: 6px;">Telegram</a></li>
+                <li><a href="./login.html">Admin</a></li>
+                <li><p>Telefon: +998 97 072 82 83 | Manzil: Jizzax viloyati</p></li>
+            </ul>
+            
+        </div>
+    </footer>
+</body>
+</html>

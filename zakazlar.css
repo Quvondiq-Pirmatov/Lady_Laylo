@@ -1,0 +1,85 @@
+/* Zakazlar sahifasi */
+.orders-page {
+    background: linear-gradient(to right, #fefefe, #f7f1ff);
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    min-height: 100vh;
+    padding: 100px 20px 60px;
+}
+.kelganZakazlar{
+    margin-top: 100px;
+    text-align: center;
+}
+.orders-container{
+    padding: 10px;
+}
+.orders-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.order-card {
+    background: #ffffffcc;
+    border: 1px solid #ddd;
+    border-left: 5px solid #8a2be2;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.order-card:hover {
+    transform: scale(1.01);
+}
+
+.order-info p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.order-products {
+    margin-top: 12px;
+}
+
+.order-products ul {
+    padding-left: 18px;
+}
+
+.order-products li {
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+/* Sticky header */
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(138, 43, 226, 0.9);
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 22px;
+    z-index: 999;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+.transparent-footer {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-info li {
+    margin: 8px 0;
+    font-size: 14px;
+}
