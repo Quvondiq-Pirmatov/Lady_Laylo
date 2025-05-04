@@ -19,30 +19,6 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
   });
 });
 
-// Mahsulotni savatchaga qo'shish
-document.querySelectorAll('.add-to-cart').forEach(button => {
-    button.addEventListener('click', () => {
-        const productId = button.getAttribute('data-product-id');
-        const productName = button.closest('.product-card').querySelector('h3').textContent;
-        const productPrice = button.closest('.product-card').querySelector('.product-price').textContent;
-        const productImage = button.closest('.product-card').querySelector('img').src;
-
-        let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-        // Mahsulotni savatchaga qo'shish
-        cart.push({
-            id: productId,
-            name: productName,
-            price: productPrice,
-            image: productImage
-        });
-
-        // Savatcha yangilandi
-        localStorage.setItem('cart', JSON.stringify(cart));
-    });
-});
-
-
 
 // === ZAKAZLAR SAHIFASI (ZAKAZLAR.HTML) ===
 // if (window.location.pathname.includes('zakazlar.html')) {
