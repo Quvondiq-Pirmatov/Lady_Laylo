@@ -14,7 +14,7 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
     const price = card.querySelector('.product-price').innerText;
     const imgSrc = card.querySelector('img').getAttribute('src');
 
-    const product = { name, price, imgSrc };
+    const product = { name, price, imgSrc};
     addToCart(product);
   });
 });
